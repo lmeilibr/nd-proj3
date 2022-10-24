@@ -22,11 +22,11 @@ performance of the application.
 ## Monthly Cost Analysis
 Complete a month cost analysis of each Azure resource to give an estimate total cost using the table below:
 
-| Azure Resource            | Service Tier                                         | Monthly Cost |
-|---------------------------|------------------------------------------------------|--------------|
-| *Azure Postgres Database* | Burstable, B1ms, 1 vCores, 2 GiB RAM, 32 GiB storage | $ 12.41      |
-| *Azure Service Bus*       | Basic                                                | $ 0.05       |
-| *App Service*             | Basic                                                | $ 54.75      |
-| *Azure Functions*         | Comsumption                                          | $ 0.00       |        
-| *Storage Accounts*        | Standard                                             | $ 21.84      |
-Total: $89.63 / month
+| Azure Resource            | Service Tier                       | Monthly Cost |
+|---------------------------|------------------------------------|--------------|
+| *Azure Postgres Database* | General Purpose, D8ds v4, 8 vCores | $ 520.34     |
+| *Azure Service Bus*       | Premium                            | $ 677.08     |
+| *App Service*             | Premium V2                         | $ 146.00     |
+| *Azure Functions*         | Premium                            | $ 155.27     |        
+| *Storage Accounts*        | Premium                            | $ 150.00     |
+Total: $1,804.64 / month
