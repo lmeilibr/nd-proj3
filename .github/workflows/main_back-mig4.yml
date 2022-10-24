@@ -41,7 +41,7 @@ jobs:
         with:
           name: python-app
           path: |
-            function/techconf 
+            function/techconf/ 
             !venv/
 
   deploy:
@@ -65,6 +65,6 @@ jobs:
           app-name: 'back-mig4'
           slot-name: 'Production'
           package: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_BCB359CEC9514F12AC21D889A3F2D0C8 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F4812AC746B24BAC8DA8A4CF9A7BACA1 }}
           scm-do-build-during-deployment: true
           enable-oryx-build: true
