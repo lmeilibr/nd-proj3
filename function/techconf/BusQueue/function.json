@@ -6,7 +6,7 @@
       "type": "serviceBusTrigger",
       "direction": "in",
       "queueName": "notificationqueue",
-      "connection": "meilibus_RootManageSharedAccessKey_SERVICEBUS"
+      "connection": "Endpoint=sb://meilibus.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=HNz9Th6fnBjN8j7w9c0zh9FlD3Qj5vUnbJHqVDnwKxU="
     }
   ]
 }
